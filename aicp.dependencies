@@ -1,0 +1,32 @@
+[
+ {
+   "repository":  "moto999999/device_leeco_msm8996-common",
+   "target_path": "device/leeco/msm8996-common",
+   "branch":      "o8.1"
+ },
+ {
+   "repository":  "LineageOS/android_device_qcom_common",
+   "target_path": "device/qcom/common",
+   "branch":      "staging/lineage-15.1"
+ },
+ {
+   "repository":  "moto999999/kernel_leeco_msm8996",
+   "target_path": "kernel/leeco/msm8996",
+   "branch":      "o8.1"
+ },
+ {
+   "repository":  "LineageOS/android_external_stlport",
+   "target_path": "external/stlport",
+   "branch":      "lineage-15.0"
+ },
+ {
+   "repository":  "LineageOS/android_packages_resources_devicesettings",
+   "target_path": "packages/resources/devicesettings",
+   "branch":      "staging/lineage-15.1"
+ },
+ {
+   "repository":  "moto999999/proprietary_vendor_leeco",
+   "target_path": "vendor/leeco",
+   "branch":      "lineage-15.0"
+ }
+]
