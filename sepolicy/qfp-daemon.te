@@ -1,3 +1,12 @@
+allow qfp-daemon self:socket create_socket_perms;
+
+allow qfp-daemon captouch_device:chr_file rw_file_perms;
+
+allow qfp-daemon persist_file:dir search;
+
+# Access QFP Android Proxy
+allow qfp-daemon qfp_proxy_service:service_manager find;
+
 # R dir perms for persist qc_senseid dir
 r_dir_file(qfp-daemon, persist_file)
 r_dir_file(qfp-daemon, persist_qc_senseid_file)
